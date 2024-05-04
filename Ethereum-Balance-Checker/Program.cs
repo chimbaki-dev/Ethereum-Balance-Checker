@@ -10,8 +10,8 @@ using System.Linq;
 public class Program
 {
     private static readonly Web3 Web3 = new Web3("https://eth-mainnet.alchemyapi.io/v2/SWnnr6RA00IpzVBqxszTH44af_QbWrN1");
-    private const string EthFile = "eth.txt";
-    private const string HighBalanceFile = "high_balance.txt";
+    private const string EthFile = "Checker/eth.txt";
+    private const string HighBalanceFile = "Checker/high_balance.txt";
     private const decimal MinBalanceUsd = 1000; // Set the minimum balance value
     public const bool removeCheckedAddresses = true; // Set to true to remove checked addresses from eth.txt
 
